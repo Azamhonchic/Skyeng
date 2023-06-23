@@ -1,0 +1,354 @@
+{
+  "auido_questions": [
+    {
+      "id": 1,
+      "question": "The woman says that you can travel from Croatia to Germany in two hours by__",
+      "type": "radio_audio",
+      "diolgue": "/listening-test-pt-1.mp3",
+      "options": [
+        {
+          "id": 1,
+          "option": "bus",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "train",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": "plane",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Who is the person they’re looking at?",
+      "type": "radio_audio",
+      "diolgue": "/listening-test-pt-2.mp3",
+      "options": [
+        {
+          "id": 1,
+          "option": "the woman's father's older brother",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "the man's father's older brother",
+          "isTrue": true
+        },
+        {
+          "id": 3,
+          "option": "the man's father's younger brother",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": " What problem does the man mention?",
+      "type": "radio_audio",
+      "diolgue": "/listening-test-pt-3.mp3",
+      "options": [
+        {
+          "id": 1,
+          "option": "There isn't any more salmon.",
+          "isTrue": true
+        },
+        {
+          "id": 2,
+          "option": " They don't sell salmon.",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": " They only serve fish.",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "The woman _________.",
+      "type": "radio_audio",
+      "diolgue": "/listening-test-pt-4.mp3",
+      "options": [
+        {
+          "id": 1,
+          "option": " doesn't want to go anywhere",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "doesn't feel well",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": "doesn't want to walk far",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": " Where are the speakers?",
+      "type": "radio_audio",
+      "diolgue": "/listening-test-pt-5.mp3",
+      "options": [
+        {
+          "id": 1,
+          "option": "a shop",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "a restaurant",
+          "isTrue": true
+        },
+        {
+          "id": 3,
+          "option": "a cinema",
+          "isTrue": false
+        }
+      ]
+    }
+  ],
+  "select_questions": [
+    {
+      "id": 3,
+      "question": "If you match these criteria, contact your manager because you qualify for a salary <@select@>",
+      "translate": "Никакого повышения. Командный игрок — это хорошо, но компания больше ценит тех, кто достигает цели, развивается и получает позитивную обратную связь от клиентов.",
+      "type": "select",
+      "options": [
+        {
+          "id": 1,
+          "option": "a team player",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "a goal-achiever who gives a positive experience to clients",
+          "isTrue": true
+        },
+        {
+          "id": 3,
+          "option": "raise",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "• received less than 5% of negative <@select@>",
+      "translate": "Никакого повышения. Командный игрок — это хорошо, но компания больше ценит тех, кто достигает цели, развивается и получает позитивную обратную связь от клиентов.",
+      "type": "select",
+      "options": [
+        {
+          "id": 1,
+          "option": "feedback",
+          "isTrue": true
+        },
+        {
+          "id": 2,
+          "option": "review",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": "criticism",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A week ago, our company hired the 5000th employee to the staff. That means that we aren’t a small startup anymore, but a big company. It is time to take care of <@select@>   and move all documentation from personal to corporate emails.",
+      "type": "select",
+      "options": [
+        {
+          "id": 1,
+          "option": "insurance",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "security",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": "safety",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "     I got the letter you sent us about the telemarketing system. All conditions in the offer <@select@>    great to us. I just want to double-check a few things with you. You said the system is up-to-date, but what will happen if it is outdated at some point? Do you provide a supporting service?",
+      "type": "select",
+      "options": [
+        {
+          "id": 1,
+          "option": "profile",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "link",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": "account",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Most senior leaders of large enterprises state they want to <@select@>     their workforce back to offices after the pandemic. Companies’ executives believe that teams located together build a high-productive work culture.",
+      "type": "select",
+      "options": [
+        {
+          "id": 1,
+          "option": "sound",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "ring",
+          "isTrue": true
+        },
+        {
+          "id": 3,
+          "option": "go",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Nowadays dynamic work environment  <@select@>   a robust leadership pipeline. Leaders are not necessarily born; employees can learn leadership behaviors by making decisions and fully participating in building community.",
+      "type": "select",
+      "options": [
+        {
+          "id": 1,
+          "option": "an opportunity",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "a circumstance",
+          "isTrue": false
+        },
+        {
+          "id": 3,
+          "option": "a possibility",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "radio_questions": [
+    {
+      "id": 1,
+      "question": "A candidate for the salary increase is",
+      "translate": "Никакого повышения. Командный игрок — это хорошо, но компания больше ценит тех, кто достигает цели, развивается и получает позитивную обратную связь от клиентов.",
+      "type": "radio",
+      "options": [
+        {
+          "id": 1,
+          "option": "a team player",
+          "isTrue": false
+        },
+        {
+          "id": 2,
+          "option": "a goal-achiever who gives a positive experience to clients",
+          "isTrue": true
+        },
+        {
+          "id": 3,
+          "option": "an employee who fulfilled sales plan",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What does a cow drink",
+      "translate": "что пьет корова",
+      "type": "radio",
+      "options": [
+        {
+          "id": 4,
+          "option": "Milk",
+          "isTrue": false
+        },
+        {
+          "id": 5,
+          "option": "water",
+          "isTrue": true
+        },
+        {
+          "id": 6,
+          "option": "Cola",
+          "isTrue": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Literally how to translate",
+      "translate": "Как переводится слово Literally ",
+      "type": "radio",
+      "options": [
+        {
+          "id": 7,
+          "option": "Литература",
+          "isTrue": false
+        },
+        {
+          "id": 8,
+          "option": "Книга",
+          "isTrue": false
+        },
+        {
+          "id": 9,
+          "option": "В буквальном смысле",
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Ironic how to translate",
+      "translate": "Как переводится слово Ironic ",
+      "type": "radio",
+      "options": [
+        {
+          "id": 10,
+          "option": "Гладить",
+          "isTrue": false
+        },
+        {
+          "id": 11,
+          "option": "Железо",
+          "isTrue": false
+        },
+        {
+          "id": 12,
+          "option": "Нет правельного ответа",
+          "isTrue": true
+        }
+      ]
+    }
+  ],
+  "userScore": {
+    "trueAnswers": 0,
+    "falseAnswers": 0,
+    "falseAnswersArr": []
+  }
+}
